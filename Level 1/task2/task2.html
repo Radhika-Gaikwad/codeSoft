@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="task1.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-PgBhSK/fEtQ16+5m45YQe1JNqJHLmZ0M8Fm8Y9ETDRoT7H/ENK9eY1REv2XlZUI5lUZa4L1s/F1A7/GIFaOPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               
+                <div>Radhika Gaikwad</div>
+                <div>Software Developer</div>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="switch-mode" onclick="toggleDarkMode()">🌙</li>
+                   
+                  </ul>
+                  <div class="menu-bar" onclick="toggleMenu()">☰</div>
+            </div>
+           
+           
+          </nav>
+    </header>
+<main>
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="photo.jpg" alt="">
+        <h3>Radhika Gaikwad - Software Developer</h3>
+        <div>
+            <div class="about-box">
+                <p>
+                    Hi there! 👋 I'm Radhika Gaikwad, a passionate frontend developer with a knack for creating beautiful and intuitive user interfaces. I thrive on turning ideas into reality through code and love the challenge of crafting elegant solutions to complex problems.
+                </p>
+            </div>
+            <div class="about-box">
+                <h3>What I Do</h3>
+                <p>
+                    As a frontend developer, I specialize in:
+                    <br />
+                    <strong>HTML, CSS, and JavaScript:</strong> I have a strong foundation in web development fundamentals, including semantic HTML, responsive CSS, and modern JavaScript techniques.
+                    <br />
+                    <strong>React and Redux:</strong> I'm proficient in building interactive and dynamic web applications using React.js and state management with Redux.
+                    <br />
+                    <strong>Backend Basics:</strong> While my primary focus is on frontend development, I also have a solid understanding of backend technologies such as Node.js and Express.js. I can create Restful APIs and handle server-side logic when needed.
+                    <br />
+                    <strong>Database Management:</strong> I'm familiar with NoSQL databases like MongoDB and ORM libraries like Mongoose. I understand how to design database schemas, perform CRUD operations, and ensure data integrity.
+                </p>
+            </div>
+            <div class="about-box">
+                <h3>My Approach</h3>
+                <p>
+                    I'm a lifelong learner who is constantly seeking to expand my skill set and stay updated with the latest trends and technologies in the ever-evolving world of web development. I'm passionate about writing clean, maintainable code and following best practices to deliver high-quality software solutions.
+                </p>
+            </div>
+            <div class="about-box">
+                <h3>What I'm Looking For</h3>
+                <p>
+                    I'm excited to enhance my skillset with talented teams on challenging projects where I can contribute my expertise and continue to grow as a developer. Whether it's building innovative web applications, optimizing user experiences, or solving technical puzzles, I'm eager to tackle new challenges and make a meaningful impact.
+                </p>
+            </div>
+            <div class="about-box">
+                <h3>Let's Connect!</h3>
+                <p>
+                    If you're interested in working together or just want to chat about web development, feel free to reach out to me. I'm always open to new opportunities and love connecting with fellow developers.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-bar">
+                <div class="skill skill-bar-html" data-percentage="90">HTML</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill skill-bar-css" data-percentage="80">CSS</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill skill-bar-js" data-percentage="70">JavaScript</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill skill-bar-react" data-percentage="75">ReactJS</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill skill-bar-node" data-percentage="65">NodeJS</div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill skill-bar-mongodb" data-percentage="85">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="resume-download">
+          <p>Download my resume:</p>
+          <a href="path/to/your/resume.pdf" download="Your_Name_Resume.pdf">Download PDF</a>
+        </div>
+      </section>
+      
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project">
+                    <h3>Music Player Browser Application (Spotify Clone)</h3>
+                    <p>A functional clone of the Spotify music player using HTML, CSS, and JavaScript. Allows users to search for songs, create playlists, and enjoy music seamlessly. Integrated with Spotify API for real-time data updates.</p>
+                    <a href="https://github.com/Radhika-Gaikwad/musicPlayerAppClone/tree/musicplayer-project" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span> Check out
+                    </a>
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <div class="project">
+                    <h3>Shopping Website</h3>
+                    <p>A responsive e-commerce website inspired by Myntra, offering a wide range of products across various categories. Built with HTML, CSS, and JavaScript. Features include user authentication, product search, and shopping cart functionality.</p>
+                    <a href="https://github.com/Radhika-Gaikwad/musicPlayerAppClone/tree/musicplayer-project" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span> Check out
+                    </a>
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <div class="project">
+                    <h3>Todo App</h3>
+                    <p>A simple and intuitive todo list application built with React. Users can add, delete, and mark tasks as complete. Features include task filtering and data persistence using local storage.</p>
+                    <a href="https://github.com/Radhika-Gaikwad/reactTodos/tree/react-project" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span> Check out
+                    </a>
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <div class="project">
+                    <h3>Calculator App</h3>
+                    <p>A basic calculator application developed using HTML, CSS, and JavaScript. Performs arithmetic operations such as addition, subtraction, multiplication, and division. Provides a clean and user-friendly interface.</p>
+                    <a href="https://github.com/Radhika-Gaikwad/calculatorApp/tree/todo-app" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span> Check out
+                    </a>
+                </div>
+            </div>
+    
+            <div class="project-box">
+                <div class="project">
+                    <h3>Messenger App (Browser Application)</h3>
+                    <p>A UI clone of the Messenger app, Twitter, named as 'x.com'. Made using HTML and CSS framework Tailwind. Allows users to send and receive messages, view conversations, and manage contacts.</p>
+                    <a href="https://github.com/Radhika-Gaikwad/twitterUIClone/tree/socialmedia-ui" target="_blank">
+                        <span class="icon"><i class="fab fa-github"></i></span> Check out
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Add more project boxes -->
+        </div>
+    </section>
+    <section id="achievements" class="achievements-section">
+        <h2>Achievements</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-description">
+                    <p>Completed Frontend Developer certification from FreeCodeCamp.</p>
+                    <p>Received a digital certificate and badge for completing the course.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-description">
+                    <p> Contributed to open-source projects on GitHub.</p>
+                    <p>Helped fix bugs and add new features to popular repositories.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-description">
+                    <p >Built 10+ projects using various technologies.</p>
+                    <p>Gained much experience in web-devlopment by creating many-projects</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-description">
+                    <p>Participated in hackathons and coding competitions.</p>
+                    <p>For good coding practice and improving problem solving skills Participated in many coding challenges and achieve good rank </p>
+                </div>
+            </div>
+            <!-- Add more steps -->
+        </div>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-details">
+                <p>Email: radhika.sai.gaikwad@gmail.com</p>
+                <p>Phone: +1 234 567 890</p>
+                
+            </div>
+        </section>
+</main>
+
+    <footer>
+        <p>&copy; 2024 Radhika Gaikwad. All rights reserved.</p>
+      </footer>
+ 
+</body>
+</html>
